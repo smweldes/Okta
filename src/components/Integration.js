@@ -1,17 +1,14 @@
 import React from 'react'
+import AppList from './AppList';
+import Sidebar from './Sidebar';
 import './main.css';
 
 function Integration() {
     return (
         <div className='integration'>
-            
-            <div className='left'>
-                <h4>Categories</h4>
-              
-            </div>
-            <div className='right'>
-             <h3>App</h3>
-            </div>
+           <Sidebar/>
+           <AppList/> 
+             
         </div>
     )
 }
