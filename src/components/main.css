@@ -1,0 +1,18 @@
+.integration{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: left;
+    text-align: left;
+    
+}
+.Catagories{
+  width: 25%;
+  background-color: #e2bcbc;
+}
+
+.app-list{
+    width: 70%;
+    background-color: blue
+    ;
+}

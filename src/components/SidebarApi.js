@@ -1,0 +1,1 @@
+fetch('https://ct012022-oktainc.pantheonsite.io/oktaapi/integration/filters/products').then(response=>console.log(response))
